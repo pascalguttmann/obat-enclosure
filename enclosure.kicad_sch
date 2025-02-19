@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "8ec0899b-9d7b-491d-933a-49b74b34a0df")
 	(paper "A4")
+	(title_block
+		(title "Enclosure")
+		(date "2025-02-20")
+		(rev "0.0.0")
+		(company "Open Battery Tester")
+		(comment 1 "Overview")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
