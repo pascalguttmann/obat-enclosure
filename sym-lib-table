@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "enclosure")(type "KiCad")(uri "${KIPRJMOD}/enclosure.kicad_sym")(options "")(descr ""))
+)
