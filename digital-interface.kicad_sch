@@ -2624,6 +2624,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 139.7) (xy 165.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355dc7fe-349a-487c-8757-7dea1a0d59cb")
+	)
+	(wire
+		(pts
 			(xy 134.62 48.26) (xy 134.62 50.8)
 		)
 		(stroke
@@ -2664,6 +2674,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 139.7) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9487a2-ff69-44e5-ab38-db884a26723f")
+	)
+	(wire
+		(pts
 			(xy 195.58 111.76) (xy 195.58 116.84)
 		)
 		(stroke
@@ -2701,6 +2721,26 @@
 			(type default)
 		)
 		(uuid "5e3d7d76-9ef3-444a-9286-0704947437a4")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63032c3e-79e2-48da-97f0-b11b686a3e3d")
+	)
+	(wire
+		(pts
+			(xy 132.08 127) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6353db1d-c031-4b8f-93c6-654679d199c2")
 	)
 	(wire
 		(pts
@@ -4698,6 +4738,91 @@
 			(project "enclosure"
 				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/dc44c087-3b63-4db9-8fc8-89acb3b8154a"
 					(reference "C205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "enclosure:R")
+		(at 148.59 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a81e2f-dce4-4773-acd9-6b13ee5a3bdc")
+		(property "Reference" "R206"
+			(at 148.59 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 148.59 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 148.59 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-071KL"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-071KL"
+			(at 148.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a53a388e-94eb-4d46-9f36-da6c0bde23dd")
+		)
+		(pin "2"
+			(uuid "3e8d179f-0c5d-4f6c-a357-e20854691ec3")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/dc44c087-3b63-4db9-8fc8-89acb3b8154a"
+					(reference "R206")
 					(unit 1)
 				)
 			)
