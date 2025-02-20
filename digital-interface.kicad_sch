@@ -2401,6 +2401,12 @@
 		(uuid "a39223b5-0233-4d23-941d-0f57a71bc6b1")
 	)
 	(junction
+		(at 76.2 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a894e743-31fe-4f15-b908-301a036c3b44")
+	)
+	(junction
 		(at 160.02 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2430,25 +2436,21 @@
 		(color 0 0 0 0)
 		(uuid "f9b3f2be-4c82-42c8-9fbb-6cc04b8aeb0d")
 	)
+	(junction
+		(at 76.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcb50c71-c25a-4a51-98b5-337130a1908f")
+	)
 	(wire
 		(pts
-			(xy 110.49 116.84) (xy 110.49 111.76)
+			(xy 76.2 116.84) (xy 76.2 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00bc2ac7-c889-4e92-899b-bac9be2e2b37")
-	)
-	(wire
-		(pts
-			(xy 93.98 116.84) (xy 110.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ade1b4d-2dbc-4c9a-bde9-cfa9e656e0b1")
 	)
 	(wire
 		(pts
@@ -2569,6 +2571,16 @@
 			(type default)
 		)
 		(uuid "2a206b3f-f73d-42a9-9936-94e61585acdf")
+	)
+	(wire
+		(pts
+			(xy 76.2 118.11) (xy 76.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d37c92c-3c74-4ac0-b0ba-e27bd6408f3a")
 	)
 	(wire
 		(pts
@@ -2782,6 +2794,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737d37da-981b-49ab-a028-11d551578195")
+	)
+	(wire
+		(pts
+			(xy 93.98 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75714736-f954-4177-aec5-7d91f5a0a30b")
+	)
+	(wire
+		(pts
 			(xy 125.73 125.73) (xy 125.73 127)
 		)
 		(stroke
@@ -2992,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 127) (xy 110.49 132.08)
+			(xy 76.2 127) (xy 76.2 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3049,16 +3081,6 @@
 			(type default)
 		)
 		(uuid "b4686613-dd25-4526-9384-849c7c4ce8da")
-	)
-	(wire
-		(pts
-			(xy 110.49 127) (xy 125.73 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8deaac2-1574-45a3-b54b-fade248f829f")
 	)
 	(wire
 		(pts
@@ -3149,6 +3171,16 @@
 			(type default)
 		)
 		(uuid "c8e8cb83-2d71-4960-9853-f43dd21fcb20")
+	)
+	(wire
+		(pts
+			(xy 76.2 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b467cf-9157-4c18-baba-4c550b4a80e7")
 	)
 	(wire
 		(pts
@@ -3299,6 +3331,26 @@
 			(type default)
 		)
 		(uuid "d79c8248-c255-4e0a-a3b4-9727a93b38c0")
+	)
+	(wire
+		(pts
+			(xy 125.73 127) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ea25d6-0490-4a3c-a4bb-f6d5a26f9634")
+	)
+	(wire
+		(pts
+			(xy 76.2 127) (xy 76.2 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0a704a-7f82-4b5e-92f8-0374a789a1a5")
 	)
 	(wire
 		(pts
@@ -5079,7 +5131,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:+5VI")
-		(at 110.49 111.76 0)
+		(at 76.2 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5088,7 +5140,7 @@
 		(fields_autoplaced yes)
 		(uuid "6189f6a1-300b-4a80-9692-4c0867b33ff3")
 		(property "Reference" "#PWR0701"
-			(at 110.49 115.57 0)
+			(at 76.2 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5149,7 @@
 			)
 		)
 		(property "Value" "+5VI"
-			(at 110.49 106.68 0)
+			(at 76.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VI\""
-			(at 110.49 111.76 0)
+			(at 76.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,6 +5196,91 @@
 			(project "enclosure"
 				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/dc44c087-3b63-4db9-8fc8-89acb3b8154a"
 					(reference "#PWR201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "enclosure:R")
+		(at 76.2 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64560292-bd6f-428b-ad2a-542b00896029")
+		(property "Reference" "R205"
+			(at 71.12 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 73.66 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 77.978 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-07330RL"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-07330RL"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78f568dd-e1a4-4d06-b75b-9755228831a1")
+		)
+		(pin "2"
+			(uuid "071946a6-3423-42e3-9d37-0240caa136c7")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/dc44c087-3b63-4db9-8fc8-89acb3b8154a"
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -5223,7 +5360,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:GNDI")
-		(at 110.49 132.08 0)
+		(at 76.2 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5231,7 +5368,7 @@
 		(dnp no)
 		(uuid "6999b56d-d946-4819-a37b-69a0e7ea2f3a")
 		(property "Reference" "#PWR0702"
-			(at 110.49 138.43 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5377,7 @@
 			)
 		)
 		(property "Value" "GNDI"
-			(at 106.68 134.62 0)
+			(at 72.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 132.08 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 132.08 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDI\" , ground"
-			(at 110.49 132.08 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6384,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:TestPoint")
-		(at 93.98 116.84 0)
+		(at 125.73 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6255,7 +6392,7 @@
 		(dnp no)
 		(uuid "a23be3b1-e32b-4d36-821b-1407360013ca")
 		(property "Reference" "TP705"
-			(at 95.25 113.03 0)
+			(at 127 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6401,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 96.52 114.8079 0)
+			(at 128.27 114.8079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6410,7 @@
 			)
 		)
 		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 99.06 116.84 0)
+			(at 130.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6419,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 99.06 116.84 0)
+			(at 130.81 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6428,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 116.84 0)
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,7 +6437,7 @@
 			)
 		)
 		(property "MPN" "RCTCTE"
-			(at 93.98 116.84 0)
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6446,7 @@
 			)
 		)
 		(property "VPN" "660-RCTCTE"
-			(at 93.98 116.84 0)
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:TestPoint")
-		(at 93.98 127 0)
+		(at 125.73 127 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6761,7 +6898,7 @@
 		(dnp no)
 		(uuid "b4dfec16-a111-44d9-b457-f2530e4e6c8a")
 		(property "Reference" "TP706"
-			(at 95.25 130.81 0)
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6907,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 96.52 129.0321 0)
+			(at 128.27 129.0321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6916,7 @@
 			)
 		)
 		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 99.06 127 0)
+			(at 130.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6925,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 99.06 127 0)
+			(at 130.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6934,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 127 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6943,7 @@
 			)
 		)
 		(property "MPN" "RCTCTE"
-			(at 93.98 127 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6952,7 @@
 			)
 		)
 		(property "VPN" "660-RCTCTE"
-			(at 93.98 127 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
