@@ -4728,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1M"
 			(at 148.59 137.16 90)
 			(effects
 				(font
@@ -4763,7 +4763,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-071KL"
+		(property "MPN" "RC1210FR-071ML"
 			(at 148.59 139.7 0)
 			(effects
 				(font
@@ -4772,7 +4772,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-071KL"
+		(property "VPN" "603-RC1210FR-071ML"
 			(at 148.59 139.7 0)
 			(effects
 				(font
