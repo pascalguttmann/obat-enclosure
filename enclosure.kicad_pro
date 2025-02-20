@@ -578,6 +578,18 @@
     [
       "fec45efc-de93-478d-bc94-414f76df2e3e",
       "pwm2"
+    ],
+    [
+      "bbda67e3-2151-48ab-90c3-bcc692138389",
+      "full-bridge"
+    ],
+    [
+      "0b6c8db3-fe41-474c-8239-e75ecc104b72",
+      "full-bridge1"
+    ],
+    [
+      "778c7cc2-ff27-4288-861b-5b98ae270a8f",
+      "full-bridge2"
     ]
   ],
   "text_variables": {}

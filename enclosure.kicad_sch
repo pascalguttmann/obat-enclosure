@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2025-02-20")
-		(rev "0.3.0")
+		(rev "0.4.0")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -817,7 +817,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 85.09 120.65)
+			(xy 92.71 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ea91ab-888b-47aa-ad60-853198e9a8ee")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.46) (xy 85.09 124.46)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 95.25) (xy 85.09 95.25)
+			(xy 76.2 99.06) (xy 85.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +907,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 146.05) (xy 101.6 146.05)
+			(xy 92.71 149.86) (xy 114.3 149.86)
 		)
 		(stroke
 			(width 0)
@@ -997,13 +1007,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 146.05) (xy 85.09 146.05)
+			(xy 76.2 149.86) (xy 85.09 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48de6627-126f-4c9a-8af2-a01f564d214a")
+	)
+	(wire
+		(pts
+			(xy 92.71 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee671d8-2b93-4e5e-a94d-a6063fbceb95")
 	)
 	(wire
 		(pts
@@ -1137,16 +1157,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 95.25) (xy 101.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f133f2-9fc9-426a-a369-b492cff46598")
-	)
-	(wire
-		(pts
 			(xy 143.51 33.02) (xy 152.4 33.02)
 		)
 		(stroke
@@ -1194,16 +1204,6 @@
 			(type default)
 		)
 		(uuid "90a13c06-5a7f-4360-a0f2-beb61bca3e9f")
-	)
-	(wire
-		(pts
-			(xy 92.71 120.65) (xy 101.6 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d336f7-94c7-4d68-9523-626ae49057f9")
 	)
 	(bus
 		(pts
@@ -1632,7 +1632,7 @@
 		(uuid "84ee96e6-9c74-458e-8cc7-86afeecd88ba")
 	)
 	(label "pwm_peltier"
-		(at 101.6 120.65 0)
+		(at 99.06 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1676,7 +1676,7 @@
 		(uuid "b7705936-8bf9-42f0-9b86-b91fd293c680")
 	)
 	(label "pwm_fan"
-		(at 101.6 146.05 0)
+		(at 99.06 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1698,7 +1698,7 @@
 		(uuid "ec85a1bd-1686-4a26-b2c4-ffdb9603d511")
 	)
 	(label "pwm_heater"
-		(at 101.6 95.25 0)
+		(at 99.06 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2297,7 +2297,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:SolderJumper_2_Open")
-		(at 88.9 146.05 0)
+		(at 88.9 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2305,7 +2305,7 @@
 		(dnp no)
 		(uuid "800a88f3-1e76-4b09-917a-50d32296140a")
 		(property "Reference" "JP115"
-			(at 93.98 144.78 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2313,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 63.5 133.35 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2322,7 @@
 			)
 		)
 		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 88.9 146.05 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 146.05 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 88.9 146.05 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2702,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:SolderJumper_2_Open")
-		(at 88.9 95.25 0)
+		(at 88.9 99.06 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2710,7 +2710,7 @@
 		(dnp no)
 		(uuid "d1b38129-d5ce-415d-aab2-18099f01fc44")
 		(property "Reference" "JP113"
-			(at 93.98 93.98 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2718,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 63.5 82.55 0)
+			(at 63.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2727,7 @@
 			)
 		)
 		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 88.9 95.25 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 95.25 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2745,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 88.9 95.25 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2770,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:SolderJumper_2_Open")
-		(at 88.9 120.65 0)
+		(at 88.9 124.46 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2778,7 +2778,7 @@
 		(dnp no)
 		(uuid "d4974482-2cd5-4055-8de8-6698ce4a0235")
 		(property "Reference" "JP114"
-			(at 93.98 119.38 0)
+			(at 93.98 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2786,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 63.5 107.95 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2795,7 @@
 			)
 		)
 		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 88.9 120.65 0)
+			(at 88.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 120.65 0)
+			(at 88.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2813,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 88.9 120.65 0)
+			(at 88.9 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,6 +2900,104 @@
 				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
 					(reference "JP103")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 114.3)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b6c8db3-fe41-474c-8239-e75ecc104b72")
+		(property "Sheetname" "full-bridge1"
+			(at 114.3 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "full-bridge.kicad_sch"
+			(at 114.3 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" input
+			(at 114.3 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dfca160c-4b61-4de9-88ad-f803c9316c40")
+		)
+		(pin "IN_A" input
+			(at 114.3 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "09dbe996-7ed4-4134-999d-bad31466e330")
+		)
+		(pin "IN_B" input
+			(at 114.3 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1057161c-989f-4538-8428-e16bc5c3fa84")
+		)
+		(pin "OUT_A" output
+			(at 139.7 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0969eff7-1eac-4b0c-8bed-fcb357330144")
+		)
+		(pin "OUT_B" output
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7cbf0d30-8a2f-4bf6-bce7-a9a40c2054c3")
+		)
+		(pin "VCC" input
+			(at 127 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "115990aa-7a05-417e-98e1-c51d9311ccc2")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
+					(page "8")
 				)
 			)
 		)
@@ -3063,6 +3161,202 @@
 		)
 	)
 	(sheet
+		(at 114.3 139.7)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "778c7cc2-ff27-4288-861b-5b98ae270a8f")
+		(property "Sheetname" "full-bridge2"
+			(at 114.3 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "full-bridge.kicad_sch"
+			(at 114.3 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" input
+			(at 114.3 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e197418-bab4-4877-8292-6bf5c2df9b84")
+		)
+		(pin "IN_A" input
+			(at 114.3 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b943408b-c847-442c-9099-e7e975ee9f09")
+		)
+		(pin "IN_B" input
+			(at 114.3 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3026144-d773-4ad3-920e-4a08fcec726a")
+		)
+		(pin "OUT_A" output
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9dee0948-5077-4f1a-9673-93f9d534e1bc")
+		)
+		(pin "OUT_B" output
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ef1d7c1-c98b-419f-b7a4-66e3047933f0")
+		)
+		(pin "VCC" input
+			(at 127 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e3b4d7d-ddf6-49db-9158-a0095215ace8")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbda67e3-2151-48ab-90c3-bcc692138389")
+		(property "Sheetname" "full-bridge"
+			(at 114.3 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "full-bridge.kicad_sch"
+			(at 114.3 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" input
+			(at 114.3 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f35df09-4acb-48c9-8835-5c5841dd7cda")
+		)
+		(pin "IN_A" input
+			(at 114.3 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c59b1aca-8a06-47cf-9938-91242a853787")
+		)
+		(pin "IN_B" input
+			(at 114.3 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5e34879-c503-4a7c-9ce7-28e0d6b775f8")
+		)
+		(pin "OUT_A" output
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "880a1112-7515-4f0b-9012-932fe0fb827c")
+		)
+		(pin "OUT_B" output
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "48131715-6379-4aba-85d2-54c6e8da65ca")
+		)
+		(pin "VCC" input
+			(at 127 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "448c8cf1-31d5-4b20-ba8f-743fa321601e")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 25.4)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
@@ -3211,7 +3505,7 @@
 			)
 		)
 		(pin "pwm" output
-			(at 76.2 120.65 0)
+			(at 76.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3563,7 @@
 			)
 		)
 		(pin "pwm" output
-			(at 76.2 95.25 0)
+			(at 76.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3621,7 @@
 			)
 		)
 		(pin "pwm" output
-			(at 76.2 146.05 0)
+			(at 76.2 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
