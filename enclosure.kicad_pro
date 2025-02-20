@@ -332,7 +332,12 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+24V": "12A5",
+      "GND": "12A5",
+      "unconnected-(J102-Pin_1-Pad1)": "25A",
+      "unconnected-(J102-Pin_2-Pad2)": "12A5"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -507,6 +512,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -590,6 +607,10 @@
     [
       "778c7cc2-ff27-4288-861b-5b98ae270a8f",
       "full-bridge2"
+    ],
+    [
+      "f6df2627-821f-46ca-b36c-d1d3b4f0e28f",
+      "power"
     ]
   ],
   "text_variables": {}

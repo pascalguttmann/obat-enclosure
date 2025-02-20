@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2025-02-20")
-		(rev "0.4.0")
+		(rev "0.5.0")
 		(company "Open Battery Tester")
 		(comment 1 "Digital Interface")
 	)
@@ -3859,7 +3859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UDD32C15L01"
+		(property "MPN" "UDD32C24L01"
 			(at 49.53 85.09 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-UDD32C15L01"
+		(property "VPN" "603-UDD32C24L01"
 			(at 49.53 85.09 0)
 			(effects
 				(font
@@ -3953,7 +3953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UDD32C15L01"
+		(property "MPN" "UDD32C24L01"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-UDD32C15L01"
+		(property "VPN" "603-UDD32C24L01"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UDD32C15L01"
+		(property "MPN" "UDD32C24L01"
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -6289,7 +6289,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-UDD32C15L01"
+		(property "VPN" "603-UDD32C24L01"
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -7670,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UDD32C15L01"
+		(property "MPN" "UDD32C24L01"
 			(at 87.63 85.09 0)
 			(effects
 				(font
@@ -7679,7 +7679,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-UDD32C15L01"
+		(property "VPN" "603-UDD32C24L01"
 			(at 87.63 85.09 0)
 			(effects
 				(font
