@@ -12,6 +12,44 @@
 		(comment 1 "Overview")
 	)
 	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc44c087-3b63-4db9-8fc8-89acb3b8154a")
+		(property "Sheetname" "digital-interface"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital-interface.kicad_sch"
+			(at 25.4 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

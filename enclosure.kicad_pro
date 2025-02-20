@@ -483,11 +483,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VPN",
+          "name": "VPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -533,7 +557,11 @@
   "sheets": [
     [
       "8ec0899b-9d7b-491d-933a-49b74b34a0df",
-      ""
+      "Root"
+    ],
+    [
+      "dc44c087-3b63-4db9-8fc8-89acb3b8154a",
+      "digital-interface"
     ]
   ],
   "text_variables": {}
