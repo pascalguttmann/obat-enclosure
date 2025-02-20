@@ -335,7 +335,6 @@
     "netclass_assignments": {
       "+24V": "12A5",
       "GND": "12A5",
-      "unconnected-(J102-Pin_1-Pad1)": "25A",
       "unconnected-(J102-Pin_2-Pad2)": "12A5"
     },
     "netclass_patterns": []
