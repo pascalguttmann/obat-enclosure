@@ -12,7 +12,7 @@
 		(comment 1 "Overview")
 	)
 	(lib_symbols
-		(symbol "pss:Conn_01x06_Socket"
+		(symbol "enclosure:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -342,7 +342,7 @@
 				)
 			)
 		)
-		(symbol "pss:GNDI"
+		(symbol "enclosure:GNDI"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -438,7 +438,7 @@
 				)
 			)
 		)
-		(symbol "pss:SolderJumper_2_Open"
+		(symbol "enclosure:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -876,7 +876,75 @@
 		(uuid "f533d9ad-7a12-4360-a0d9-b9cd5abc08cd")
 	)
 	(symbol
-		(lib_id "pss:Conn_01x06_Socket")
+		(lib_id "enclosure:SolderJumper_2_Open")
+		(at 101.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "17f6b942-e558-493b-8bc4-7f9a6a5e00aa")
+		(property "Reference" "JP102"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 76.2 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebf49c93-fa34-400c-a0e8-0c6496ec13f8")
+		)
+		(pin "2"
+			(uuid "a6b3eb3b-d17c-44a7-af37-bfb328988286")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
+					(reference "JP102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "enclosure:Conn_01x06_Socket")
 		(at 38.1 30.48 0)
 		(mirror y)
 		(unit 1)
@@ -976,16 +1044,24 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:GNDI")
-		(at 50.8 25.4 90)
+		(lib_id "enclosure:SolderJumper_2_Open")
+		(at 101.6 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "43756c64-9657-4400-a9b3-caa07deb5145")
-		(property "Reference" "#PWR0101"
-			(at 57.15 25.4 0)
+		(uuid "6f922d79-6ec6-44b4-8d5c-5122802a50ee")
+		(property "Reference" "JP104"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 76.2 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,16 +1069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDI"
-			(at 57.15 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 25.4 0)
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 101.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,8 +1078,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 25.4 0)
+		(property "Datasheet" "~"
+			(at 101.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,8 +1087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDI\" , ground"
-			(at 50.8 25.4 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 101.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,19 +1097,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "f37a8d46-035d-4ae3-a81c-792a53330a9a")
+			(uuid "b91c4bd3-ee17-4075-ab05-8a3ae392555a")
+		)
+		(pin "2"
+			(uuid "80f7516e-e89c-4a50-b523-0d36cf4a64d4")
 		)
 		(instances
 			(project "enclosure"
 				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
-					(reference "#PWR0101")
+					(reference "JP104")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
+		(lib_id "enclosure:SolderJumper_2_Open")
 		(at 101.6 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1109,14 +1180,79 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
+		(lib_id "enclosure:GNDI")
+		(at 50.8 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9adc0a1e-67aa-474e-87c4-637edabe0e64")
+		(property "Reference" "#PWR0101"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDI"
+			(at 55.88 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDI\" , ground"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1778ab1b-29a8-4222-b04e-53ac9ad67691")
+		)
+		(instances
+			(project "enclosure"
+				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "enclosure:SolderJumper_2_Open")
 		(at 101.6 33.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "dca0a67e-23da-4bce-bd05-d1b4c5bfdf85")
+		(uuid "e4b16c45-c404-439b-95d1-e34a8a7f3033")
 		(property "Reference" "JP103"
 			(at 106.68 31.75 0)
 			(effects
@@ -1162,151 +1298,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c3c93ef-089d-4e55-ad9f-9083c5c84dd6")
+			(uuid "7044bb31-4232-492e-b0b5-6417587752cc")
 		)
 		(pin "2"
-			(uuid "adb693b1-5a93-468e-b6e5-2c6bb24aa34c")
+			(uuid "1fe493d3-b510-49e8-8b44-8aa281a8d17a")
 		)
 		(instances
 			(project "enclosure"
 				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
 					(reference "JP103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
-		(at 101.6 35.56 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e34166f5-1e66-46d4-96b6-584f9880d7f2")
-		(property "Reference" "JP104"
-			(at 106.68 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 76.2 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 101.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "456801cd-e8dc-4acc-9365-703a489c777f")
-		)
-		(pin "2"
-			(uuid "a5f5d35e-a77a-4f5b-b8d8-f873bdffca5d")
-		)
-		(instances
-			(project "enclosure"
-				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
-					(reference "JP104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
-		(at 101.6 30.48 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7c6a558-ddee-44ca-a004-aea49b0ec058")
-		(property "Reference" "JP102"
-			(at 106.68 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 76.2 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1708da27-703a-4464-bbef-c4509648ef64")
-		)
-		(pin "2"
-			(uuid "035f38d5-ff4e-4f4a-8b94-c741a16270f5")
-		)
-		(instances
-			(project "enclosure"
-				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df"
-					(reference "JP102")
 					(unit 1)
 				)
 			)
