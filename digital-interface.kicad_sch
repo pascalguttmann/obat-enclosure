@@ -5,9 +5,9 @@
 	(uuid "654afc25-d255-46ff-8b92-f01d7b1afe4f")
 	(paper "A4")
 	(title_block
-		(title "Enclosure")
+		(title "Power Supply Sink")
 		(date "2025-02-20")
-		(rev "0.1.0")
+		(rev "0.2.0")
 		(company "Open Battery Tester")
 		(comment 1 "Digital Interface")
 	)

@@ -544,7 +544,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./schematic",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -562,6 +562,10 @@
     [
       "dc44c087-3b63-4db9-8fc8-89acb3b8154a",
       "digital-interface"
+    ],
+    [
+      "33cb8651-a05a-4753-834f-4740bc12c74b",
+      "dac"
     ]
   ],
   "text_variables": {}
