@@ -4,10 +4,10 @@
       "anchor": "U701"
     },
     "pwm.kicad_pcb": {
-      "anchor": "U501"
+      "anchor": "R401"
     },
     "full-bridge.kicad_pcb": {
-      "anchor": "U801"
+      "anchor": "C801"
     },
     "enclosure.kicad_pcb": {
       "anchor": "J101"
