@@ -7758,7 +7758,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+24V" input
+		(pin "IN" input
 			(at 63.5 57.15 180)
 			(effects
 				(font
@@ -7766,7 +7766,7 @@
 				)
 				(justify left)
 			)
-			(uuid "79bbd9bf-01e1-45e0-b12e-570ef3bc0962")
+			(uuid "af60da4f-8fb5-4f4c-8ba0-9c7eaff6927d")
 		)
 		(instances
 			(project "enclosure"

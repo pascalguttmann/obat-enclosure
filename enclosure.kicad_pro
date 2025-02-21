@@ -553,6 +553,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "+24V": "12A5",
+      "/power/IN": "12A5",
       "GND": "12A5",
       "unconnected-(J102-Pin_2-Pad2)": "12A5"
     },

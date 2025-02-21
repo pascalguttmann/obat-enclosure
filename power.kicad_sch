@@ -3688,7 +3688,7 @@
 		)
 		(uuid "fec3ebf2-f16c-4f7e-bf50-78bceb7a65d4")
 	)
-	(hierarchical_label "+24V"
+	(hierarchical_label "IN"
 		(shape input)
 		(at 53.34 60.96 180)
 		(fields_autoplaced yes)
