@@ -6,6 +6,9 @@
     "pwm.kicad_pcb": {
       "anchor": "U501"
     },
+    "digital-interface.kicad_pcb": {
+      "anchor": "U701"
+    },
     "enclosure.kicad_pcb": {
       "anchor": "J101"
     }
@@ -27,7 +30,7 @@
       "checked": true
     },
     "/dc44c087-3b63-4db9-8fc8-89acb3b8154a": {
-      "checked": false
+      "checked": true
     },
     "/f6df2627-821f-46ca-b36c-d1d3b4f0e28f": {
       "checked": false

@@ -2560,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 156.21 76.2)
+			(xy 147.32 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 76.2) (xy 143.51 76.2)
+			(xy 138.43 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3707,6 +3707,50 @@
 			(type default)
 		)
 		(uuid "ffd55f6f-7f40-48ee-b461-bd3a05c0a792")
+	)
+	(label "sckl_pin"
+		(at 179.07 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2234d3c2-0d2a-4740-ba9b-43509f8dd3e3")
+	)
+	(label "sdo_iso_pin"
+		(at 147.32 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "700d619f-a860-49cb-ab6e-da7ef5dc1506")
+	)
+	(label "~{cs_pin}"
+		(at 179.07 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "704c6b78-88ae-4014-a735-cede7eb9cf86")
+	)
+	(label "sdi_pin"
+		(at 179.07 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a31367d6-d29e-462d-a2b8-e29535352dda")
 	)
 	(hierarchical_label "SDO_ISO"
 		(shape output)
@@ -4752,7 +4796,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:R")
-		(at 147.32 76.2 90)
+		(at 143.51 76.2 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4761,7 +4805,7 @@
 		(dnp no)
 		(uuid "30567c4e-a901-4264-a7db-5dea1399a4da")
 		(property "Reference" "R205"
-			(at 147.32 81.28 90)
+			(at 143.51 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +4813,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 147.32 78.74 90)
+			(at 143.51 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4821,7 @@
 			)
 		)
 		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 147.32 74.422 90)
+			(at 143.51 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4830,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 147.32 76.2 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4839,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 76.2 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4848,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-07100RL"
-			(at 147.32 76.2 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4857,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-07100RL"
-			(at 147.32 76.2 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
