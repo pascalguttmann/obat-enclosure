@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2025-02-21")
-		(rev "1.0.0")
+		(rev "1.1.0")
 		(company "Open Battery Tester")
 		(comment 1 "Digital Analog Converter")
 	)
@@ -3420,7 +3420,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c34")
+			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c35")
 		)
 		(instances
 			(project "enclosure"
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c34")
+			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c36")
 		)
 		(instances
 			(project "enclosure"
@@ -4188,7 +4188,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c34")
+			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c37")
 		)
 		(instances
 			(project "enclosure"
@@ -4348,7 +4348,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c34")
+			(uuid "e2ab15f4-bcf1-43aa-9f33-d5caab113c38")
 		)
 		(instances
 			(project "enclosure"
