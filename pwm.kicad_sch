@@ -1043,7 +1043,7 @@
 		)
 		(uuid "fbd250b8-ea88-4ba7-9305-591e24f96261")
 	)
-	(label "mod"
+	(label "mod_pin"
 		(at 119.38 99.06 0)
 		(fields_autoplaced yes)
 		(effects
