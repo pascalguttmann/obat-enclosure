@@ -1,0 +1,42 @@
+{
+  "subpcb": {
+    "full-bridge.kicad_pcb": {
+      "anchor": "U801"
+    },
+    "enclosure.kicad_pcb": {
+      "anchor": "J101"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/0b6c8db3-fe41-474c-8239-e75ecc104b72": {
+      "checked": true
+    },
+    "/33cb8651-a05a-4753-834f-4740bc12c74b": {
+      "checked": false
+    },
+    "/778c7cc2-ff27-4288-861b-5b98ae270a8f": {
+      "checked": true
+    },
+    "/bbda67e3-2151-48ab-90c3-bcc692138389": {
+      "checked": true
+    },
+    "/dc44c087-3b63-4db9-8fc8-89acb3b8154a": {
+      "checked": false
+    },
+    "/f6df2627-821f-46ca-b36c-d1d3b4f0e28f": {
+      "checked": false
+    },
+    "/f9849806-7b26-4d25-a3bb-4f97a5448d50": {
+      "checked": false
+    },
+    "/fd10d231-4260-411b-ac65-895371e388ba": {
+      "checked": false
+    },
+    "/fec45efc-de93-478d-bc94-414f76df2e3e": {
+      "checked": false
+    }
+  }
+}

@@ -1741,6 +1741,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 139.7) (xy 91.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e13120-e909-417c-b652-354120b78aa6")
+	)
+	(wire
+		(pts
 			(xy 177.8 91.44) (xy 177.8 85.09)
 		)
 		(stroke
@@ -1801,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 139.7) (xy 110.49 139.7)
+			(xy 105.41 139.7) (xy 110.49 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1868,6 +1878,72 @@
 			(type default)
 		)
 		(uuid "fcde96a1-ef5e-4b54-9ddc-3866e901827c")
+	)
+	(label "sel0"
+		(at 115.57 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fa26706-9602-4748-bb25-c1ce4fe677a2")
+	)
+	(label "sel0_in"
+		(at 91.44 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6876c13f-d500-4a89-b7db-6986ca928410")
+	)
+	(label "in_b"
+		(at 115.57 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89e73e10-ee48-48a1-b217-1353f25f5426")
+	)
+	(label "in_a"
+		(at 115.57 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b0c2ef5-f38c-4726-b8ac-feffefb4b780")
+	)
+	(label "pwm"
+		(at 115.57 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f142d7e-5239-4a45-aa72-14f19bc61b80")
+	)
+	(label "cs"
+		(at 137.16 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d41e7108-d7b4-4ca3-96e8-fd2d4f345768")
 	)
 	(hierarchical_label "PWM"
 		(shape input)
@@ -3447,7 +3523,7 @@
 	)
 	(symbol
 		(lib_id "enclosure:R")
-		(at 95.25 139.7 90)
+		(at 101.6 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3455,7 +3531,7 @@
 		(dnp no)
 		(uuid "c047dd2f-8cd7-4915-b81b-48e8155f91e4")
 		(property "Reference" "R707"
-			(at 95.25 134.62 90)
+			(at 101.6 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3539,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 95.25 137.16 90)
+			(at 101.6 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3547,7 @@
 			)
 		)
 		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 95.25 141.478 90)
+			(at 101.6 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3556,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 95.25 139.7 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3565,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 139.7 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3574,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-071KL"
-			(at 95.25 139.7 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3583,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-071KL"
-			(at 95.25 139.7 0)
+			(at 101.6 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
