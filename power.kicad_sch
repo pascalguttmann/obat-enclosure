@@ -3795,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "enclosure:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 63.5 152.4 0)
 			(effects
 				(font
@@ -3929,7 +3929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:TO-252-2"
+		(property "Footprint" "enclosure:TO-252-2"
 			(at 191.135 143.51 0)
 			(effects
 				(font
@@ -4088,7 +4088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+		(property "Footprint" "enclosure:CP_Elec_10x10"
 			(at 113.3348 71.12 0)
 			(effects
 				(font
@@ -4174,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-123"
+		(property "Footprint" "enclosure:D_SOD-123"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -4479,7 +4479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -5027,7 +5027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 228.6 113.03 0)
 			(effects
 				(font
@@ -5111,7 +5111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "enclosure:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.7548 64.77 0)
 			(effects
 				(font
@@ -5199,7 +5199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-323_HandSoldering"
+		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
 			(at 66.04 67.31 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 71.12 60.96 0)
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-123"
+		(property "Footprint" "enclosure:D_SOD-123"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -5627,7 +5627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "enclosure:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.7548 140.97 0)
 			(effects
 				(font
@@ -5714,7 +5714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 81.28 127 0)
 			(effects
 				(font
@@ -5798,7 +5798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -5948,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "enclosure:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -6015,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 158.75 128.778 90)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:TO-252-2"
+		(property "Footprint" "enclosure:TO-252-2"
 			(at 191.135 67.31 0)
 			(effects
 				(font
@@ -6258,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(property "Footprint" "enclosure:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 91.44 59.182 90)
 			(effects
 				(font
@@ -6346,7 +6346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-123"
+		(property "Footprint" "enclosure:D_SOD-123"
 			(at 127 67.31 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "enclosure:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 63.5 165.1 0)
 			(effects
 				(font
@@ -6519,7 +6519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 81.28 165.1 0)
 			(effects
 				(font
@@ -6603,7 +6603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -6687,7 +6687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 228.6 62.23 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:SOT-223-3_TabPin2"
+		(property "Footprint" "enclosure:SOT-223-3_TabPin2"
 			(at 175.26 111.76 0)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "enclosure:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -6996,7 +6996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "enclosure:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 208.5848 140.97 0)
 			(effects
 				(font
@@ -7083,7 +7083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 81.28 139.7 0)
 			(effects
 				(font
@@ -7167,7 +7167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "enclosure:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 208.5848 64.77 0)
 			(effects
 				(font

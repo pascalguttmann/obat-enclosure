@@ -3832,7 +3832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-323_HandSoldering"
+		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
 			(at 49.53 85.09 0)
 			(effects
 				(font
@@ -3926,7 +3926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-323_HandSoldering"
+		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -4019,7 +4019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 221.2848 33.02 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.6648 118.11 0)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 80.01 58.42 0)
 			(effects
 				(font
@@ -4289,7 +4289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 227.33 52.07 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 192.0748 53.34 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 54.61 58.42 0)
 			(effects
 				(font
@@ -4776,7 +4776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 147.32 74.422 90)
 			(effects
 				(font
@@ -4863,7 +4863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "enclosure:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 198.4248 118.11 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 167.64 141.478 90)
 			(effects
 				(font
@@ -5112,7 +5112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 227.33 93.98 0)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 127.508 85.09 90)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 215.9 32.258 90)
 			(effects
 				(font
@@ -5372,7 +5372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-323_HandSoldering"
+		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
 			(at 113.03 121.92 0)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 221.2848 76.2 0)
 			(effects
 				(font
@@ -5622,7 +5622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 97.028 121.92 90)
 			(effects
 				(font
@@ -5852,7 +5852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 92.71 58.42 0)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 221.2848 54.61 0)
 			(effects
 				(font
@@ -6094,7 +6094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "enclosure:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 128.5748 118.11 0)
 			(effects
 				(font
@@ -6253,7 +6253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-323_HandSoldering"
+		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -6344,7 +6344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 215.9 53.848 90)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 227.33 73.66 0)
 			(effects
 				(font
@@ -6585,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "enclosure:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 215.9 75.438 90)
 			(effects
 				(font
@@ -6805,7 +6805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 67.31 58.42 0)
 			(effects
 				(font
@@ -7127,7 +7127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.8148 118.11 0)
 			(effects
 				(font
@@ -7220,7 +7220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 227.33 30.48 0)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
+		(property "Footprint" "enclosure:TP_0805_2012Metric"
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 107.188 85.09 90)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 117.348 85.09 90)
 			(effects
 				(font
@@ -7643,7 +7643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:D_SOD-323_HandSoldering"
+		(property "Footprint" "enclosure:D_SOD-323_HandSoldering"
 			(at 87.63 85.09 0)
 			(effects
 				(font
@@ -7736,7 +7736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.4648 81.28 0)
 			(effects
 				(font
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "enclosure:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -7956,7 +7956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "enclosure:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 194.818 85.09 90)
 			(effects
 				(font
@@ -8043,7 +8043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "enclosure:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 146.3548 53.34 0)
 			(effects
 				(font

@@ -1,0 +1,307 @@
+(footprint "FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf")
+	(tags "ATO FKS blade fuse holder")
+	(property "Reference" "REF**"
+		(at 6.4 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "42c404b1-0084-48f6-8bb4-1c65dc8c246c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_Socket"
+		(at 6.4 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c40bcd64-5c4a-40c9-be98-a47977b91270")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "pss:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3c7c3d6-7cbe-44e0-ad91-d238dec061a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "./datasheet/178.6165.0002.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b44d270-cdbc-4ab7-88df-6168bb366784")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24df0d68-80cd-471c-be35-3468f1f70598")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "178.6165.0002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c08b2db7-bff5-4d3f-833f-d764dfc2f735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "576-178.6165.0002"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b24aa1-9300-461d-b61f-1f6a723b632f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.91 -2.06)
+		(end 16.71 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07cf883f-51e2-4474-950a-0070bffe865a")
+	)
+	(fp_line
+		(start -3.91 4.56)
+		(end -3.91 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65c327ff-a080-46b3-bdbe-bc0cf96e6734")
+	)
+	(fp_line
+		(start 16.71 -2.06)
+		(end 16.71 4.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a599427-66ca-48ef-ad27-6d34b4ac92da")
+	)
+	(fp_line
+		(start 16.71 4.56)
+		(end -3.91 4.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52983cd4-0167-4719-840f-35c037330ee9")
+	)
+	(fp_line
+		(start -4.1 -2.25)
+		(end 16.9 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8395762d-1ab0-485f-bf3a-42a0728ab217")
+	)
+	(fp_line
+		(start -4.1 4.75)
+		(end -4.1 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b077476a-744a-4b06-a9da-7c993e4af1e6")
+	)
+	(fp_line
+		(start 16.9 -2.25)
+		(end 16.9 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "efa0e029-5919-4be1-957f-22d5053099b6")
+	)
+	(fp_line
+		(start 16.9 4.75)
+		(end -4.1 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fac9965e-eb5d-43c4-935d-d790455efdac")
+	)
+	(fp_line
+		(start -3.6 -1.75)
+		(end 16.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1244fe66-cb09-44b1-9f6e-4300ef9d319f")
+	)
+	(fp_line
+		(start -3.6 4.25)
+		(end -3.6 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdcc8631-46e7-42f0-b9e5-707fc4ce7b72")
+	)
+	(fp_line
+		(start 16.4 -1.75)
+		(end 16.4 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33a2f710-ee75-48e6-ac5c-ea65974619a6")
+	)
+	(fp_line
+		(start 16.4 4.25)
+		(end -3.6 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22d830c3-95e5-4681-9e40-7d7ff4ed1639")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.4 1.25 0)
+		(layer "F.Fab")
+		(uuid "0f652dc0-51da-42b4-8a3a-5f7d8aab481e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 6.4 1.25)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "32eb14ce-07f8-42cb-90f5-d3a87a74579f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9ee11f7-a008-472b-baf4-06e4b3684528")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c92f3918-57bb-4eb4-be1f-c737652fab77")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a56d2fe3-ab51-4705-9a24-4aa89456a2ba")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21b1a3b5-dc3e-4d4d-be40-bb94d2a721cc")
+	)
+	(pad "2" thru_hole circle
+		(at 9.3 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "684fad7e-e876-4209-8118-4243a65c6423")
+	)
+	(pad "2" thru_hole circle
+		(at 9.3 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abcd6a77-8bb0-4c34-8433-e4808e9485fa")
+	)
+	(pad "2" thru_hole circle
+		(at 12.8 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ed9f8bc-b64a-4e8d-9b00-52d07bb16410")
+	)
+	(pad "2" thru_hole circle
+		(at 12.8 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97f43d3c-9499-48e0-a7a9-e94807821cce")
+	)
+	(model "${KIPRJMOD}/3d_models/178.6165.0000.step"
+		(offset
+			(xyz 0 -12.5 -10.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
