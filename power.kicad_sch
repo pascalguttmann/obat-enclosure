@@ -2783,28 +2783,10 @@
 		(uuid "138e89c3-cd60-4c9e-9ce7-e868dcffb0ad")
 	)
 	(junction
-		(at 76.2 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "139c7d44-bdc3-4755-a0c5-de90fdf0fb34")
-	)
-	(junction
 		(at 190.5 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c15006b-9a9a-4dee-ae42-176db04ea91b")
-	)
-	(junction
-		(at 76.2 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2829aef6-f20a-4b2e-8bf7-9bfea6cc2e4c")
-	)
-	(junction
-		(at 76.2 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bc6f92a-64a9-49c5-be61-5178c67ad0fc")
 	)
 	(junction
 		(at 172.72 127)
@@ -2871,12 +2853,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd7ca938-8ee6-4df5-81d4-3a3cde35c599")
-	)
-	(junction
-		(at 76.2 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c463e89d-127b-4958-b0c7-9a475ecc8f33")
 	)
 	(junction
 		(at 144.78 60.96)
@@ -3000,16 +2976,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 127) (xy 76.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2005aefb-53a7-4a16-bfab-57a0df85d21f")
-	)
-	(wire
-		(pts
 			(xy 194.31 127) (xy 209.55 127)
 		)
 		(stroke
@@ -3040,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 152.4) (xy 88.9 152.4)
+			(xy 67.31 152.4) (xy 88.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 88.9 127)
+			(xy 67.31 127) (xy 88.9 127)
 		)
 		(stroke
 			(width 0)
@@ -3390,16 +3356,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 139.7) (xy 76.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d468b73-3d33-4fb3-8011-7686ac9f198f")
-	)
-	(wire
-		(pts
 			(xy 179.07 50.8) (xy 179.07 63.5)
 		)
 		(stroke
@@ -3410,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 165.1) (xy 88.9 165.1)
+			(xy 67.31 165.1) (xy 88.9 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 88.9 139.7)
+			(xy 67.31 139.7) (xy 88.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3537,16 +3493,6 @@
 			(type default)
 		)
 		(uuid "bd7aa668-2a73-41f2-9a05-c693875580dd")
-	)
-	(wire
-		(pts
-			(xy 67.31 165.1) (xy 76.2 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdfd6cbf-20a3-4ddf-b25e-c0fca55d38b6")
 	)
 	(wire
 		(pts
@@ -3647,16 +3593,6 @@
 			(type default)
 		)
 		(uuid "ef459338-b7eb-4ae1-a796-eea0a22367bc")
-	)
-	(wire
-		(pts
-			(xy 67.31 152.4) (xy 76.2 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef938965-b619-4bb4-8779-87fc63f1a4a8")
 	)
 	(wire
 		(pts
@@ -5689,90 +5625,6 @@
 	)
 	(symbol
 		(lib_id "enclosure:TestPoint")
-		(at 76.2 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97fb053f-0901-47d7-a877-df768e00c1de")
-		(property "Reference" "TP1003"
-			(at 77.47 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 78.74 124.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
-			(at 81.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 81.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 76.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 76.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c01fc61-5274-4df9-b06e-2aa5dc12e0ed")
-		)
-		(instances
-			(project "enclosure"
-				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/f6df2627-821f-46ca-b36c-d1d3b4f0e28f"
-					(reference "TP1003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "enclosure:TestPoint")
 		(at 66.04 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6494,174 +6346,6 @@
 	)
 	(symbol
 		(lib_id "enclosure:TestPoint")
-		(at 76.2 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c943ff9f-b7cb-4879-b5bb-d2a7afc3c904")
-		(property "Reference" "TP1006"
-			(at 77.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 78.74 163.0679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
-			(at 81.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 81.28 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 76.2 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 76.2 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23251036-8631-4c15-ba72-170a3f1defce")
-		)
-		(instances
-			(project "enclosure"
-				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/f6df2627-821f-46ca-b36c-d1d3b4f0e28f"
-					(reference "TP1006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "enclosure:TestPoint")
-		(at 76.2 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf079759-9438-4bcc-964a-ffa3c19f1550")
-		(property "Reference" "TP1005"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 78.74 150.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "817c5f5c-18e5-41a9-ace3-e2d788ae1e5f")
-		)
-		(instances
-			(project "enclosure"
-				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/f6df2627-821f-46ca-b36c-d1d3b4f0e28f"
-					(reference "TP1005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "enclosure:TestPoint")
 		(at 223.52 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7051,90 +6735,6 @@
 			(project "enclosure"
 				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/f6df2627-821f-46ca-b36c-d1d3b4f0e28f"
 					(reference "C1005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "enclosure:TestPoint")
-		(at 76.2 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5bac61f-ebe8-496b-9e0a-77d3aee201d3")
-		(property "Reference" "TP1004"
-			(at 77.47 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 78.74 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "enclosure:TP_0805_2012Metric"
-			(at 81.28 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 81.28 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 76.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 76.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23173a2d-f61f-4446-b1f6-d9a3e907af9b")
-		)
-		(instances
-			(project "enclosure"
-				(path "/8ec0899b-9d7b-491d-933a-49b74b34a0df/f6df2627-821f-46ca-b36c-d1d3b4f0e28f"
-					(reference "TP1004")
 					(unit 1)
 				)
 			)
