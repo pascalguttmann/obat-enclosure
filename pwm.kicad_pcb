@@ -553,7 +553,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "TP403"
-			(at 0 -1.65 180)
+			(at 0.762 1.651 180)
 			(layer "F.SilkS")
 			(uuid "406e75ff-60f1-4169-af39-78e148e088f2")
 			(effects
@@ -732,7 +732,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C401"
-			(at 0 1.905 360)
+			(at 0 1.905 0)
 			(layer "F.SilkS")
 			(uuid "aba501a1-621c-41bd-b90f-3a91905a5dbd")
 			(effects
@@ -743,7 +743,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "5f14e4d3-17d3-4411-8239-950e9b6fc211")
 			(effects
@@ -921,7 +921,7 @@
 			(uuid "54b5011a-432c-4fee-8305-1f1115203c3d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2a493968-444c-4f85-beea-2efc08130197")
 			(effects
@@ -979,7 +979,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "b24fce2f-c726-4c70-9bfe-1b106b5f8602")
 			(effects
@@ -1108,7 +1108,7 @@
 			(uuid "b4ca1d72-46ed-48f8-91cd-22866db73875")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cf106287-c2b4-4a14-a6dd-462048f82f8e")
 			(effects
@@ -1147,7 +1147,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U501"
-			(at 0 -2.4 360)
+			(at -2.794 -0.254 90)
 			(layer "F.SilkS")
 			(uuid "ae47cd1b-5c9a-4608-9dc8-ba681efa3eb5")
 			(effects
@@ -1158,7 +1158,7 @@
 			)
 		)
 		(property "Value" "LTC6992IS6-1"
-			(at 2.365 6.21 360)
+			(at 2.365 6.21 0)
 			(layer "F.Fab")
 			(uuid "5b3eb2fd-b135-4d2b-92f3-a6e97463a2d0")
 			(effects
@@ -1378,7 +1378,7 @@
 			(uuid "76f42d21-d0c7-4f60-9922-71a510085625")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8f653a16-5a45-414a-8184-33c8726be489")
 			(effects

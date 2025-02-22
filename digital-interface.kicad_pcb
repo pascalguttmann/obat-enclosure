@@ -1156,12 +1156,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C209"
-			(at 3.81 0 90)
+			(at -3.302 -0.127 90)
 			(layer "F.SilkS")
 			(uuid "d89203e6-6412-4b55-b192-15396965d9b0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.762 0.762)
 					(thickness 0.15)
 				)
 			)
@@ -1628,7 +1628,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "TP708"
-			(at 0 1.778 0)
+			(at 0 3.556 90)
 			(layer "F.SilkS")
 			(uuid "16d8167e-e065-4901-afc3-927aeeaa0422")
 			(effects
@@ -2043,7 +2043,7 @@
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U702"
-			(at 0 -6.1 -90)
+			(at -8.001 -4.445 -90)
 			(layer "F.SilkS")
 			(uuid "2b002291-ca6e-48e6-8b6f-ae1a9db9319e")
 			(effects
@@ -2499,7 +2499,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "TP710"
-			(at 0 1.778 0)
+			(at 0 3.556 90)
 			(layer "F.SilkS")
 			(uuid "6ceb897f-cba5-4122-ab62-8f05d7923faf")
 			(effects
@@ -3610,7 +3610,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C705"
-			(at -3.175 -0.254 0)
+			(at -3.429 -1.524 0)
 			(layer "F.SilkS")
 			(uuid "db04937d-ba03-4997-8049-d4ba36a21501")
 			(effects
@@ -4318,7 +4318,7 @@
 		(descr "Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R206"
-			(at 0 2.159 90)
+			(at 3.302 0.381 180)
 			(layer "F.SilkS")
 			(uuid "26733365-84a4-40f4-96fe-f375544bcf03")
 			(effects
@@ -5856,7 +5856,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "TP709"
-			(at 0 1.778 0)
+			(at 0 3.556 90)
 			(layer "F.SilkS")
 			(uuid "550daa79-0784-4400-9dc7-894c6c8dd631")
 			(effects
@@ -7230,12 +7230,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C208"
-			(at 3.683 0 90)
+			(at -3.429 -0.127 90)
 			(layer "F.SilkS")
 			(uuid "f7ce68ce-9765-4723-ad85-ab0024567461")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.762 0.762)
 					(thickness 0.15)
 				)
 			)
@@ -7466,12 +7466,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C210"
-			(at 3.81 0.127 90)
+			(at -3.302 0 90)
 			(layer "F.SilkS")
 			(uuid "515bb73a-168b-4257-ac23-e7b710118c88")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.762 0.762)
 					(thickness 0.15)
 				)
 			)
@@ -7702,7 +7702,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "TP707"
-			(at 0 1.778 0)
+			(at 0 3.556 90)
 			(layer "F.SilkS")
 			(uuid "97861d9f-04b2-42e7-ac40-10e0c546c22e")
 			(effects

@@ -832,5 +832,7 @@
       "power"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "sch_rev": "x.x.x"
+  }
 }
