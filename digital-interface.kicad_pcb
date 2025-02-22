@@ -1161,7 +1161,7 @@
 			(uuid "d89203e6-6412-4b55-b192-15396965d9b0")
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 0.8001 0.762)
 					(thickness 0.15)
 				)
 			)
@@ -7235,7 +7235,7 @@
 			(uuid "f7ce68ce-9765-4723-ad85-ab0024567461")
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 0.8001 0.762)
 					(thickness 0.15)
 				)
 			)
@@ -7471,7 +7471,7 @@
 			(uuid "515bb73a-168b-4257-ac23-e7b710118c88")
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 0.8001 0.762)
 					(thickness 0.15)
 				)
 			)

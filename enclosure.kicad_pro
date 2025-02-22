@@ -833,6 +833,6 @@
     ]
   ],
   "text_variables": {
-    "sch_rev": "x.x.x"
+    "sch_rev": "1.1.2"
   }
 }

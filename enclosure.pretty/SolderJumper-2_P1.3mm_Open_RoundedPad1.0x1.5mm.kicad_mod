@@ -6,9 +6,9 @@
 	(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 	(tags "solder jumper open")
 	(property "Reference" "REF**"
-		(at 0 -1.8 0)
+		(at -0.254 -1.8 180)
 		(layer "F.SilkS")
-		(uuid "fa06e4ea-f4b3-4141-891d-a6610314408b")
+		(uuid "0e214392-b89b-4904-b9c6-cf3357c4c6bc")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "SolderJumper_2_Open"
-		(at 0 1.9 0)
+		(at 0 1.9 180)
 		(layer "F.Fab")
-		(uuid "5b8fdfdd-0ce0-4c74-acb6-91ec43da554f")
+		(uuid "57e16ec8-5cd0-4513-b6c5-9b091974a687")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+	(property "Footprint" "enclosure:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f1f7b0ef-9a9f-4395-be97-70d7f96f5a94")
+		(uuid "52871b15-8b7c-4d32-a7b4-6acff7b5eb9a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b49da6a-b2d5-4859-8321-03c4076b75b6")
+		(uuid "77318894-25ab-4000-92cf-9d5485e895ed")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8fe1540b-9c5b-4547-a41a-6ec340a5bb67")
+		(uuid "a3aaa672-85e2-4a76-915b-a851e2fd5646")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "819dc248-ac91-4063-a1cf-218d0451bf5c")
+		(uuid "87e2d7a1-e0bb-4437-be5b-f111aca5baed")
 	)
 	(fp_line
 		(start -0.7 -1)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d8b9b10a-cd46-4ea8-9ea5-d5bb219f25de")
+		(uuid "b5642333-304b-4c8a-bce2-963148f9aae6")
 	)
 	(fp_line
 		(start 0.7 1)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b756a519-442f-42d3-a644-8d438db8e78a")
+		(uuid "42b1036a-1f23-4311-b19b-f082e36803e9")
 	)
 	(fp_line
 		(start 1.4 -0.3)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dbe14704-2c25-4981-b772-63b240e4b3a1")
+		(uuid "8fa0fd78-0701-4cf1-a5f7-02f0c36c22e6")
 	)
 	(fp_arc
 		(start -1.4 -0.3)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "234cba3c-2b5f-4d04-aa29-2b3ef5b9dda9")
+		(uuid "6ba1ca73-777f-41aa-9fed-5b2cf153e5c2")
 	)
 	(fp_arc
 		(start -0.7 1)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a9d1b276-2b43-46d9-85ea-2597b335c64c")
+		(uuid "29c6cca3-3f61-441d-a6c2-bb2d13860a98")
 	)
 	(fp_arc
 		(start 0.7 -1)
@@ -136,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "77e8789d-abea-4363-be13-2e56ea0f7452")
+		(uuid "b6f615e2-2768-4605-ac89-c94a9922eab3")
 	)
 	(fp_arc
 		(start 1.4 0.3)
@@ -147,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "89dbc428-5a82-419b-8d0c-650c0a8788a3")
+		(uuid "c5707d05-7777-4c52-84c5-f788ce1e777c")
 	)
 	(fp_line
 		(start -1.65 -1.25)
@@ -157,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7709a763-1d85-4c36-b5ab-b32cbebe8ff5")
+		(uuid "1a4fa706-af72-45c3-9d41-0a321da43b8e")
 	)
 	(fp_line
 		(start -1.65 -1.25)
@@ -167,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7f0dc603-f6a5-41db-9700-f1404b42fc70")
+		(uuid "9fedeea2-dd72-4320-bde9-513768d2015f")
 	)
 	(fp_line
 		(start 1.65 1.25)
@@ -177,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d05f4581-9542-4468-8927-98965db22c6f")
+		(uuid "2d12f71b-7172-4fa5-b4a8-8e1a7b16dd8b")
 	)
 	(fp_line
 		(start 1.65 1.25)
@@ -187,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "67c6feae-6169-4aad-9c2d-e959077800de")
+		(uuid "bf26f6d4-d770-48f3-839e-18bc32f7e6eb")
 	)
 	(pad "1" smd custom
 		(at -0.65 0)
@@ -220,7 +220,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "81d1350e-918c-4634-9133-7c312c1a4a77")
+		(uuid "8406a0fc-b6d2-4ade-a93f-6f2650b0bc11")
 	)
 	(pad "2" smd custom
 		(at 0.65 0)
@@ -253,6 +253,6 @@
 				(fill yes)
 			)
 		)
-		(uuid "2ad9ca8c-754a-4655-949d-47cb746dfb87")
+		(uuid "dcf40774-352f-40e4-a38e-0e4db24ab216")
 	)
 )
