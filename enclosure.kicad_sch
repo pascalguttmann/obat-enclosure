@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2025-02-21")
-		(rev "1.1.1")
+		(date "2025-02-22")
+		(rev "1.1.2")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -1980,6 +1980,14 @@
 		(uuid "55096aa1-c91e-441b-a348-21254c142d04")
 	)
 	(no_connect
+		(at 213.36 35.56)
+		(uuid "5ce5f152-7a46-4e47-969f-ba482f9c0267")
+	)
+	(no_connect
+		(at 213.36 45.72)
+		(uuid "5fd6deaf-e37d-4590-bbcb-d3f0f7357c70")
+	)
+	(no_connect
 		(at 248.92 158.75)
 		(uuid "70bdea9f-2e19-4dcf-a145-92eb7784a386")
 	)
@@ -2035,15 +2043,6 @@
 			(type default)
 		)
 		(uuid "1753df45-bdde-45f2-8db9-d098fabf0641")
-	)
-	(bus_entry
-		(at 213.36 35.56)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387c5a2e-0718-482f-898d-123adeebc92e")
 	)
 	(bus_entry
 		(at 119.38 33.02)
@@ -2152,15 +2151,6 @@
 			(type default)
 		)
 		(uuid "9b7a2dc8-3548-4166-93a8-7668c41e439a")
-	)
-	(bus_entry
-		(at 213.36 45.72)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a511a6ba-f39e-43f6-98d0-cbd171a97324")
 	)
 	(bus_entry
 		(at 25.4 76.2)
@@ -2298,16 +2288,6 @@
 			(type default)
 		)
 		(uuid "12672e97-fb21-4de6-ae90-8b53057a2deb")
-	)
-	(bus
-		(pts
-			(xy 215.9 35.56) (xy 215.9 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14245da0-9266-4ed2-b104-c8a52b8dab01")
 	)
 	(wire
 		(pts
@@ -2631,7 +2611,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 38.1) (xy 215.9 40.64)
+			(xy 215.9 35.56) (xy 215.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2699,16 +2679,6 @@
 		)
 		(uuid "6ca283d7-f55e-45d4-930a-b770474d4d79")
 	)
-	(bus
-		(pts
-			(xy 215.9 48.26) (xy 215.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7296bcb9-3b30-42a0-bae8-21d42d8c214a")
-	)
 	(wire
 		(pts
 			(xy 177.8 35.56) (xy 186.69 35.56)
@@ -2731,7 +2701,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 45.72) (xy 215.9 48.26)
+			(xy 215.9 45.72) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
