@@ -2,11 +2,10 @@
 
 KiCAD Project for the Enclosure adapter PCB to interface to the mechanical Enclosure.
 
-TODO: Add images
-
 | TOP | BOT |
 | ------------- | -------------- |
-| Top side image | Bot side image |
+| ![img](./img/enclosure_top.png) | ![img](./img/enclosure_bot.png) |
+| ![img](./img/enclosure_3d_top.png) | ![img](./img/enclosure_3d_bot.png) |
 
 ## License
 
